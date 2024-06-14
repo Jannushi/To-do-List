@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #343434;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: inline-block;
+    color: white;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 356px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group button {
+    background-color: #20db20;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.task-list {
+    margin-top: 20px;
+    box-shadow: 0px 5px 5px 0 currentColor;
+}
+
+
+.task-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #3d3d3d;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.task-item p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: 'Noto Serif', serif;
+    color: rgb(248, 77, 34);
+}
+
+.task-item d {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.task-item t {
+    margin: 0;
+    margin-bottom: 5px;
+    color: #aaa;
+}
+
+.task-item .icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.task-item .icon {
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.task-item .icon.fa-check {
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    color: #20db20;
+}
+
+.task-item .icon.fa-trash-alt {
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    color: red;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.todos-manage {
+    height: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    font-size: 20px;
+}
